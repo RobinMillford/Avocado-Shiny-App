@@ -6,6 +6,14 @@
 
 This repository contains the code and necessary files to deploy a Shiny web application. The application is designed to provide a dashboard of California avocado insights.
 
+## Source
+
+Dataset - [California Avocado Production and Value (1971-)](https://www.kaggle.com/datasets/yaminh/california-avocado-production-and-value-1971/) . 
+
+## Deployment
+
+Here is my Deployed app on Shiny server - [Avocado Dashboard](https://robinmillford.shinyapps.io/avocado-app/)
+
 ## Requirements
 
 To run this application locally or deploy it on a server, you need the following:
@@ -47,11 +55,7 @@ To run the Shiny app locally:
    ```bash
    shiny run --reload --launch-browser app.py 
    ```
-
-### Deployment
-
-Here is my Deployed app on Shiny server - [Avocado Dashboard](https://robinmillford.shinyapps.io/avocado-app/)
-
+   
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or a pull request in this repository.
